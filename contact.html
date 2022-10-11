@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume-web devloper</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar"> 
+          <nav>
+             <ul>
+                    <li><a href="/">home</a></li>
+                    <li><a href="/intro.html">my intro</a></li>
+                    <li><a href="/service.html">service</a></li>
+                    <li><a href="/blog.html">Blog</a></li>
+                    <li><a href="/contact.html">contact me</a></li>
+              </ul>
+          </nav>
+        </div>
+        <div class="main">
+            <div class="contactform">
+              <h1>Contact me for work/general Enquiries</h1>
+              <form action="/action_page.php" method="get"> 
+                <div class="mb-3">
+                  <label for="clientname" class="form-label">Name</label>
+                  <input class="form-control" type="name" id="clientname" aria-describedby="emailhelp">
+                </div>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Emial address</label>
+                  <input class="form-control" type="email" id="clientemail" aria-describedby="emailhelp">
+                  <div id="emailhelp" class="form-text">we'll never share your emial & phone with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="clientphone" class="form-label">Phone</label>
+                  <input class="form-control" type="phone" id="clinetphone" multiple>
+                </div>
+                <div class="mb-3">
+                  <label for="clientenquiry" class="form-label">Enquiry</label>
+                  <input class="form-control" type="email" id="clientenquiry" aria-describedby="emailhelp">
+                </div>
+                <div class="mb-3"id="form-check">
+                  <input class="form-control" type="checkbox" id="ischeck">
+                  <label for="ischeck" class="form-check-input">I want to work on a project with me</label>
+                  
+                </div>
+                <button type="submit" class="btn-sm">Submit</button> 
+                    
+                
+             </form>
+            </div>
+       </div>
+    </div>
+</body>
+</html>
